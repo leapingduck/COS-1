@@ -28,7 +28,7 @@ body {
 
 .content p {
     margin: 0;
-    overflow: hidden;
+    font-size: 1.3rem;
 }
 .content img.arrow {
     padding: 1rem 0;
