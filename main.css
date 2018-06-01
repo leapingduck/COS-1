@@ -1,0 +1,60 @@
+body {
+    background-image: url(assets/background3.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+.hero img {
+    margin: 0;
+    display: block;
+    padding: 1rem
+}
+
+.hero{
+    height: calc(100vh - 3.5rem);
+}
+
+.content-bg {
+    background-color: antiquewhite;
+}
+
+.content {
+    padding-top: 1rem;
+    color: dimgrey;
+    margin: 0;
+}
+
+.content p {
+    margin: 0;
+    overflow: hidden;
+}
+.content img.arrow {
+    padding: 1rem 0;
+    display: block;
+    margin: auto;    
+}
+
+footer {
+    height: 7rem;
+}
+
+.btm-logo img {
+    margin: auto;
+    padding: 1rem 8px;
+}
+
+.foot-icons {
+    text-align: right;
+    padding: 1.5rem 3rem 0;
+    display: block;
+}
+
+fa-envelope {
+    color: antiquewhite;
+}
+
+.fa-facebook-square {
+    color: #3B5998;
+}
