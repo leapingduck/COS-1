@@ -36,33 +36,37 @@ body {
     margin: auto;    
 }
 
+.mapcontainer {
+    margin: auto;
+  
+}
 .map {
     height: 30rem;
     width: 40rem;
-    margin: auto;
     padding: 3rem;
+    max-width: 100%;
 }
 
-/* ########### Footer ############*/
-footer {
-    height: 7rem;
-}
-
-.btm-logo img {
+.contact {
     margin: auto;
-    padding: 1rem 8px;
+    text-align: center;
 }
-
-.foot-icons {
-    text-align: right;
-    padding: 1.5rem 3rem 0;
-    display: block;
-}
-
-fa-envelope {
-    color: antiquewhite;
-}
-
 .fa-facebook-square {
     color: #3B5998;
 }
+
+/* ########### Footer ############*/
+.btm-logo img {
+    margin: auto;
+    padding: 3px 10px;
+}
+
+.footer-text {
+    text-align: right;
+    padding: 3rem 2rem 0;
+    font-size: .75rem;
+    color: antiquewhite;
+}
+
+
+
